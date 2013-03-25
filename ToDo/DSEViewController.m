@@ -8,7 +8,9 @@
 
 #import "DSEViewController.h"
 
-@interface DSEViewController ()
+@interface DSEViewController () <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *inputField;
+@property (weak, nonatomic) IBOutlet UITextView *todoListView;
 
 @end
 
@@ -18,6 +20,20 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self.inputField becomeFirstResponder];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    self.todoListView.text = [NSString stringWithFormat:@"%@\n%@",
+                              self.inputField.text,
+                              self.todoListView.text];
+    self.inputField.text = @"";
+    [self.inputField resignFirstResponder];
+    return YES;
+}
+
+- (IBAction)viewTapped:(id)sender {
+    [self.inputField becomeFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning

@@ -12,12 +12,12 @@
 		C46F90111700EAB100A88D1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46F90101700EAB100A88D1C /* CoreGraphics.framework */; };
 		C46F90171700EAB100A88D1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C46F90151700EAB100A88D1C /* InfoPlist.strings */; };
 		C46F90191700EAB100A88D1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F90181700EAB100A88D1C /* main.m */; };
-		C46F901D1700EAB100A88D1C /* DSEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F901C1700EAB100A88D1C /* DSEAppDelegate.m */; };
 		C46F901F1700EAB100A88D1C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C46F901E1700EAB100A88D1C /* Default.png */; };
 		C46F90211700EAB100A88D1C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C46F90201700EAB100A88D1C /* Default@2x.png */; };
 		C46F90231700EAB100A88D1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C46F90221700EAB100A88D1C /* Default-568h@2x.png */; };
-		C46F90261700EAB100A88D1C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46F90241700EAB100A88D1C /* MainStoryboard.storyboard */; };
-		C46F90291700EAB100A88D1C /* DSEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F90281700EAB100A88D1C /* DSEViewController.m */; };
+		C46F90341700EC3100A88D1C /* DSEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F90301700EACD00A88D1C /* DSEAppDelegate.m */; };
+		C46F90351700EC3800A88D1C /* DSEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F90331700EACD00A88D1C /* DSEViewController.m */; };
+		C46F90361700EC7300A88D1C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46F90311700EACD00A88D1C /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +29,14 @@
 		C46F90161700EAB100A88D1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C46F90181700EAB100A88D1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C46F901A1700EAB100A88D1C /* ToDo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDo-Prefix.pch"; sourceTree = "<group>"; };
-		C46F901B1700EAB100A88D1C /* DSEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSEAppDelegate.h; sourceTree = "<group>"; };
-		C46F901C1700EAB100A88D1C /* DSEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSEAppDelegate.m; sourceTree = "<group>"; };
 		C46F901E1700EAB100A88D1C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C46F90201700EAB100A88D1C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C46F90221700EAB100A88D1C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		C46F90251700EAB100A88D1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C46F90271700EAB100A88D1C /* DSEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSEViewController.h; sourceTree = "<group>"; };
-		C46F90281700EAB100A88D1C /* DSEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSEViewController.m; sourceTree = "<group>"; };
+		C46F902F1700EACD00A88D1C /* DSEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSEAppDelegate.h; sourceTree = "<group>"; };
+		C46F90301700EACD00A88D1C /* DSEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSEAppDelegate.m; sourceTree = "<group>"; };
+		C46F90311700EACD00A88D1C /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C46F90321700EACD00A88D1C /* DSEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSEViewController.h; sourceTree = "<group>"; };
+		C46F90331700EACD00A88D1C /* DSEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSEViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +83,11 @@
 		C46F90121700EAB100A88D1C /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
-				C46F901B1700EAB100A88D1C /* DSEAppDelegate.h */,
-				C46F901C1700EAB100A88D1C /* DSEAppDelegate.m */,
-				C46F90241700EAB100A88D1C /* MainStoryboard.storyboard */,
-				C46F90271700EAB100A88D1C /* DSEViewController.h */,
-				C46F90281700EAB100A88D1C /* DSEViewController.m */,
+				C46F902F1700EACD00A88D1C /* DSEAppDelegate.h */,
+				C46F90301700EACD00A88D1C /* DSEAppDelegate.m */,
+				C46F90311700EACD00A88D1C /* MainStoryboard.storyboard */,
+				C46F90321700EACD00A88D1C /* DSEViewController.h */,
+				C46F90331700EACD00A88D1C /* DSEViewController.m */,
 				C46F90131700EAB100A88D1C /* Supporting Files */,
 			);
 			path = ToDo;
@@ -163,7 +163,7 @@
 				C46F901F1700EAB100A88D1C /* Default.png in Resources */,
 				C46F90211700EAB100A88D1C /* Default@2x.png in Resources */,
 				C46F90231700EAB100A88D1C /* Default-568h@2x.png in Resources */,
-				C46F90261700EAB100A88D1C /* MainStoryboard.storyboard in Resources */,
+				C46F90361700EC7300A88D1C /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +175,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C46F90191700EAB100A88D1C /* main.m in Sources */,
-				C46F901D1700EAB100A88D1C /* DSEAppDelegate.m in Sources */,
-				C46F90291700EAB100A88D1C /* DSEViewController.m in Sources */,
+				C46F90341700EC3100A88D1C /* DSEAppDelegate.m in Sources */,
+				C46F90351700EC3800A88D1C /* DSEViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +189,6 @@
 				C46F90161700EAB100A88D1C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C46F90241700EAB100A88D1C /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C46F90251700EAB100A88D1C /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
